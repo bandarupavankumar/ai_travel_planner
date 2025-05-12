@@ -110,7 +110,7 @@ export default function Signup() {
                   </TouchableOpacity>
                   {/* Create Account Button */}
                   <TouchableOpacity
-                    onPress={()=>router.replace('/auth/sign-in')}
+                    onPress={()=>router.replace('auth/sign-in')}
                   style={{
                     padding:20,
                     backgroundColor:Colors.WHITE,

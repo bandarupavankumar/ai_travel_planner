@@ -14,7 +14,7 @@ export default function SignIn() {
         })
     },[])
 
-    
+
   return (
     <View style={{
         padding:25,
@@ -77,7 +77,7 @@ export default function SignIn() {
       </View>
       {/* Create Account Button */}
       <TouchableOpacity
-        onPress={()=>router.replace('/auth/sign-up')}
+        onPress={()=>router.replace('auth/sign-up')}
       style={{
         padding:20,
         backgroundColor:Colors.WHITE,
